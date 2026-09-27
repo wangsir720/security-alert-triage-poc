@@ -1,0 +1,1946 @@
+{
+  "method": "controlled synthetic alert benchmark",
+  "alerts": 240,
+  "actual_actionable": 60,
+  "baseline": {
+    "true_positive_high": 60,
+    "false_positive_high": 120,
+    "high_precision": 0.3333,
+    "high_recall": 1.0
+  },
+  "enriched": {
+    "true_positive_high": 60,
+    "false_positive_high": 60,
+    "high_precision": 0.5,
+    "high_recall": 1.0
+  },
+  "false_positive_reduction": 0.5,
+  "system_elapsed_seconds": 0.001484,
+  "automated_seconds_per_alert": 6e-06,
+  "confirmation_seconds_per_alert_assumption": 60.0,
+  "estimated_mtti_seconds_per_alert": 60.000006,
+  "manual_seconds_per_alert_assumption": 180.0,
+  "estimated_mtti_reduction": 0.6667,
+  "details": [
+    {
+      "id": "BENCH-0001",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0002",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0003",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0004",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0005",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0006",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0007",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0008",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0009",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0010",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0011",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0012",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0013",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0014",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0015",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0016",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0017",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0018",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0019",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0020",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0021",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0022",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0023",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0024",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0025",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0026",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0027",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0028",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0029",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0030",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0031",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0032",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0033",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0034",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0035",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0036",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0037",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0038",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0039",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0040",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0041",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0042",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0043",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0044",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0045",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0046",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0047",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0048",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0049",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0050",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0051",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0052",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0053",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0054",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0055",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0056",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0057",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0058",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0059",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0060",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0061",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0062",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0063",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0064",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0065",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0066",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0067",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0068",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0069",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0070",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0071",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0072",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0073",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0074",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0075",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0076",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0077",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0078",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0079",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0080",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0081",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0082",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0083",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0084",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0085",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0086",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0087",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0088",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0089",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0090",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0091",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0092",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0093",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0094",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0095",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0096",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0097",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0098",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0099",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0100",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0101",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0102",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0103",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0104",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0105",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0106",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0107",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0108",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0109",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0110",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0111",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0112",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0113",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0114",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0115",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0116",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0117",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0118",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0119",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0120",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0121",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0122",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0123",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0124",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0125",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0126",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0127",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0128",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0129",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0130",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0131",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0132",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0133",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0134",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0135",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0136",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0137",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0138",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0139",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0140",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0141",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0142",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0143",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0144",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0145",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0146",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0147",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0148",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0149",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0150",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0151",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0152",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0153",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0154",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0155",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0156",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0157",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0158",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0159",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0160",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0161",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0162",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0163",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0164",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0165",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0166",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0167",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0168",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0169",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0170",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0171",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0172",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0173",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0174",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0175",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0176",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0177",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0178",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0179",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0180",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0181",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0182",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0183",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0184",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0185",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0186",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0187",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0188",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0189",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0190",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0191",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0192",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0193",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0194",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0195",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0196",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0197",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0198",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0199",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0200",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0201",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0202",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0203",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0204",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0205",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0206",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0207",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0208",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0209",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0210",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0211",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0212",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0213",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0214",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0215",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0216",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0217",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0218",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0219",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0220",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0221",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0222",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0223",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0224",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0225",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0226",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0227",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0228",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0229",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0230",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0231",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0232",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0233",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0234",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0235",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0236",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0237",
+      "expected_actionable": true,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 100,
+      "intel_matched": true
+    },
+    {
+      "id": "BENCH-0238",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "medium",
+      "enriched_score": 55,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0239",
+      "expected_actionable": false,
+      "baseline_level": "high",
+      "enriched_level": "high",
+      "enriched_score": 90,
+      "intel_matched": false
+    },
+    {
+      "id": "BENCH-0240",
+      "expected_actionable": false,
+      "baseline_level": "low",
+      "enriched_level": "low",
+      "enriched_score": 15,
+      "intel_matched": false
+    }
+  ]
+}

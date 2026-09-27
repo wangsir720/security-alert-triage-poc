@@ -1,0 +1,52 @@
+{
+  "185.220.101.42": {
+    "type": "ip",
+    "verdict": "malicious",
+    "confidence": 92,
+    "tags": ["c2", "scanning"],
+    "source": "local-demo-feed"
+  },
+  "45.88.90.12": {
+    "type": "ip",
+    "verdict": "malicious",
+    "confidence": 95,
+    "tags": ["c2"],
+    "source": "local-demo-feed"
+  },
+  "account-verify.example": {
+    "type": "domain",
+    "verdict": "malicious",
+    "confidence": 88,
+    "tags": ["phishing"],
+    "source": "local-demo-feed"
+  },
+  "https://account-verify.example/login": {
+    "type": "url",
+    "verdict": "malicious",
+    "confidence": 90,
+    "tags": ["phishing"],
+    "source": "local-demo-feed"
+  },
+  "44d88612fea8a8f36de82e1278abb02f": {
+    "type": "hash",
+    "verdict": "malicious",
+    "confidence": 99,
+    "tags": ["credential-access"],
+    "source": "local-demo-feed"
+  },
+  "198.51.100.23": {
+    "type": "ip",
+    "verdict": "suspicious",
+    "confidence": 72,
+    "tags": ["scanning"],
+    "source": "local-demo-feed"
+  },
+  "cdn-service.example": {
+    "type": "domain",
+    "verdict": "suspicious",
+    "confidence": 61,
+    "tags": ["unknown"],
+    "source": "local-demo-feed"
+  }
+}
+
