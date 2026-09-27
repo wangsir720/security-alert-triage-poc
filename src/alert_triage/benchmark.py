@@ -20,7 +20,7 @@ def generate_benchmark_alerts(count: int = 240) -> list[dict[str, Any]]:
             "weight": 1,
             "severity": "high",
             "asset_criticality": "high",
-            "src_ip": "45.88.90.12",
+            "src_ip": "198.51.100.12",
             "domain": "",
             "tags": ["c2"],
             "ground_truth_actionable": True,
@@ -217,4 +217,5 @@ def write_benchmark_report(result: dict[str, Any], output: str | Path) -> None:
     ]
     Path(output).parent.mkdir(parents=True, exist_ok=True)
     Path(output).write_text("\n".join(lines) + "\n", encoding="utf-8")
+
 

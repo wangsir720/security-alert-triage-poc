@@ -15,10 +15,10 @@
     "high_recall": 1.0
   },
   "false_positive_reduction": 0.5,
-  "system_elapsed_seconds": 0.001484,
-  "automated_seconds_per_alert": 6e-06,
+  "system_elapsed_seconds": 0.002193,
+  "automated_seconds_per_alert": 9e-06,
   "confirmation_seconds_per_alert_assumption": 60.0,
-  "estimated_mtti_seconds_per_alert": 60.000006,
+  "estimated_mtti_seconds_per_alert": 60.000009,
   "manual_seconds_per_alert_assumption": 180.0,
   "estimated_mtti_reduction": 0.6667,
   "details": [

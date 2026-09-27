@@ -1,12 +1,12 @@
 {
-  "185.220.101.42": {
+  "192.0.2.42": {
     "type": "ip",
     "verdict": "malicious",
     "confidence": 92,
     "tags": ["c2", "scanning"],
     "source": "local-demo-feed"
   },
-  "45.88.90.12": {
+  "198.51.100.12": {
     "type": "ip",
     "verdict": "malicious",
     "confidence": 95,
@@ -49,4 +49,5 @@
     "source": "local-demo-feed"
   }
 }
+
 

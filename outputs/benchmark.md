@@ -18,7 +18,7 @@
 | High-risk recall | 100.0% | 100.0% |
 
 - False-positive reduction: **50.0%**
-- Automated processing time per alert: **0.000006s**
+- Automated processing time per alert: **0.000009s**
 - Confirmation time assumption: **60.0s per alert**
 - Estimated MTTI per alert: **60.0s**
 - Estimated MTTI reduction: **66.7%** (assumption-based)

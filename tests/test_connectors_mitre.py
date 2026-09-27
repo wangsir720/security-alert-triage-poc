@@ -17,7 +17,7 @@ class ConnectorAndMitreTest(unittest.TestCase):
             {
                 "timestamp": "2026-09-27T10:00:00+08:00",
                 "src_ip": "10.0.0.10",
-                "dest_ip": "45.88.90.12",
+                "dest_ip": "198.51.100.12",
                 "alert": {
                     "signature": "Known C2 endpoint",
                     "severity": 1,
@@ -26,7 +26,7 @@ class ConnectorAndMitreTest(unittest.TestCase):
         )
         self.assertEqual(alert.source, "Suricata")
         self.assertEqual(alert.severity, "high")
-        self.assertEqual(alert.dst_ip, "45.88.90.12")
+        self.assertEqual(alert.dst_ip, "198.51.100.12")
 
     def test_wazuh_conversion(self) -> None:
         alert = wazuh_event_to_alert(
@@ -44,7 +44,7 @@ class ConnectorAndMitreTest(unittest.TestCase):
         techniques = map_matches_to_attack(
             (
                 IntelMatch(
-                    indicator="45.88.90.12",
+                    indicator="198.51.100.12",
                     indicator_type="ip",
                     verdict="malicious",
                     confidence=95,
@@ -58,4 +58,5 @@ class ConnectorAndMitreTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
 
